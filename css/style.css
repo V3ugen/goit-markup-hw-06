@@ -441,15 +441,16 @@ a.logo {
 }
 .footer{
     display: flex;
-    align-items: baseline;
 }
 .join-section{
     display: flex;
     flex-direction: column;
-}
-.join-section:last-child{
     margin-left: 70px;
 }
+.join-section:first-of-type{
+    margin-left: 0px;
+}
+
 .join-title{
     font-weight: 700;
     font-size: 14px;
@@ -484,6 +485,16 @@ a.logo {
     width: 20px;
     height: 20px;
     margin: 12px;
+}
+.email-input{
+    margin-left: 93px;
+}
+.email-input-text{
+    font-weight: 700;
+    color: var(--primary-bg-color);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 /* ПРОЭКТЫ */
 .projects{
@@ -634,4 +645,100 @@ a.logo {
     opacity: 0;
     visibility: hidden;
     pointer-events: 0;
+}
+.modal-group-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+form{
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    
+}
+.call-back{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 40px;
+}
+.modal-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.modal-field input{
+    margin: 0;
+    padding: 11px;
+
+    border: 1px solid;
+    border-color: rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.modal-field label{
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.1;
+}
+.modal-comment{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.modal-comment label{
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.1;
+}
+.modal-comment textarea::placeholder{
+    font-size: 12px;
+    line-height: 1.1;
+    color: rgba(117, 117, 117, 0.5);
+}
+.modal-comment textarea{
+    max-height: 120px;
+    resize: none;
+
+    border: 1px solid;
+    border-color: rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.modal-policy{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.modal-policy label{
+    display: inline-block;
+    margin-left: 9px;
+
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+.modal-policy a{
+    color: var(--hower-color);
+    text-decoration: underline;
+}
+.send{
+    color: var(--primary-bg-color);
+    background-color: var(--hower-color);
+    
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
+    cursor: pointer;
+    padding: 10px 55px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
