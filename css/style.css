@@ -493,7 +493,6 @@ a.logo {
     font-weight: 700;
     color: var(--primary-bg-color);
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 20px;
     line-height: 1.17;
 }
@@ -501,17 +500,16 @@ a.logo {
     color: var(--primary-bg-color);
     background-color: var(--hower-color);
 
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
     border: 0;
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 1.88;
     letter-spacing: 0.06em;
 
     cursor: pointer;
-    padding: 10px 55px;
+    padding: 10px 62px 10px 29px ;
     max-width: 200px;
     margin-left: 12px;
 }
