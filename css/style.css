@@ -441,6 +441,7 @@ a.logo {
 }
 .footer{
     display: flex;
+    align-items: baseline;
 }
 .join-section{
     display: flex;
@@ -453,7 +454,6 @@ a.logo {
 
 .join-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.17;
     color: var(--primary-bg-color);
 }
@@ -495,6 +495,37 @@ a.logo {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 20px;
+    line-height: 1.17;
+}
+.subscribe {
+    color: var(--primary-bg-color);
+    background-color: var(--hower-color);
+
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+    padding: 10px 55px;
+    max-width: 200px;
+    margin-left: 12px;
+}
+.email-input form{
+    display: flex;
+}
+.email-input input{
+    padding: 15px;
+    width: 358px;
+
+    background-color: var(--bg-color);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
 }
 /* ПРОЭКТЫ */
 .projects{
@@ -651,7 +682,7 @@ a.logo {
     flex-direction: column;
     
 }
-form{
+.modal-form{
     width: 448px;
     margin-left: auto;
     margin-right: auto;
