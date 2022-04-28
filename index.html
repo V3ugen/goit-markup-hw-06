@@ -338,42 +338,42 @@
                     <ul class="our-clients-list">
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client1"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client3"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client4"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client5"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="clients-link" href="">
-                                <svg class="social-clients-icon">
+                                <svg class="social-clients-icon" width="106" height="60">
                                     <use href="./images/icons.svg#icon-client6"></use>
                                 </svg>
                             </a>
@@ -446,7 +446,12 @@
                     <form>
                         <label for="email"></label>
                         <input type="email" name="email" id="email" placeholder="E-mail" />
-                        <button type="submit" class="subscribe">Подписаться</button>
+                        <button type="submit" class="subscribe">
+                            Подписаться
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -464,15 +469,24 @@
                     <div class="modal-group-input">
                         <div class="modal-field">
                             <label for="name">Имя</label>
-                            <input type="text" name="name" id="name" autofocus />
+                            <input type="text" name="name" id="name" autofocus placeholder=" " />
+                            <svg class="modal-icon" width="12" height="12">
+                                <use href="./images/icons.svg#icon-human"></use>
+                            </svg>
                         </div>
                         <div class="modal-field">
                             <label for="tel">Телефон</label>
-                            <input type="tel" name="tel" id="tel" />
+                            <input type="tel" name="tel" id="tel" placeholder=" " />
+                            <svg class="modal-icon" width="14" height="13">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
                         </div>
                         <div class="modal-field">
                             <label for="email">Почта</label>
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" placeholder=" " />
+                            <svg class="modal-icon" width="16" height="12">
+                                <use href="./images/icons.svg#icon-mail2"></use>
+                            </svg>
                         </div>
                         <div class="modal-comment">
                             <label for="comment">Комментарий</label>
@@ -480,14 +494,17 @@
                                 name="comment"
                                 id="comment"
                                 rows="9"
-                                placeholder="   Введите текст"
+                                placeholder="Введите текст"
                             ></textarea>
                         </div>
                         <div class="modal-policy">
-                            <input type="checkbox" name="" id="policy" />
-                            <label for="policy"
-                                >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label
-                            >
+                            <label class="label">
+                                <input class="checkbox" type="checkbox" name="" placeholder=" " /><span
+                                    class="icon-check"
+                                ></span>
+                                Соглашаюсь с рассылкой и принимаю
+                                <a href="">Условия договора</a>
+                            </label>
                         </div>
                         <button type="submit" class="send">Отправить</button>
                     </div>
