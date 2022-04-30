@@ -423,6 +423,10 @@ a.logo {
 /* ССЫЛКА НА КАРТЫ В ФУТЕРЕ */
 .address-address{
     margin-top: 20px;
+    display: block;
+}
+.address-address-list li :not(:first-child){
+    margin-top: 9px;
 }
 .address-item {
     margin-top: 9px;
